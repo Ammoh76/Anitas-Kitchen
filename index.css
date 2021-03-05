@@ -39,3 +39,9 @@
 #Breakfast{
   background-image: url("./assets/foodtop/breakfast.jpg");
 }
+#Lunch{
+  background-image: url("./assets/foodtop/lunch.jpg");
+}
+#Dinner{
+  background-image: url("./assets/foodtop/dinner.jpg");
+}

@@ -35,13 +35,22 @@
 }
 .Foodtop{
   display: flex;
+  justify-content: space-around;
+  border-top: 0;
 }
 #Breakfast{
   background-image: url("./assets/foodtop/breakfast.jpg");
+  width: 25%;
 }
 #Lunch{
   background-image: url("./assets/foodtop/lunch.jpg");
+  width: 25%;
 }
 #Dinner{
   background-image: url("./assets/foodtop/dinner.jpg");
+  width: 25%;
+  height: 100px;
+  float: right;
+  right: 0;
+  display: flex;
 }

@@ -30,3 +30,27 @@
   text-align: center;
   color: white;
 }
+#customer{
+  border: 2px solid grey;
+
+
+}
+#about{
+  justify-content:right;
+}
+#Fastfoods{
+  border: 1px solid white;
+  display: inline-block;
+  size: 30px;
+  text-align: center;
+  justify-content: center;
+  background-image: url("./assets/backgrounds/foodsBg.jpg");
+  background-size: cover;
+  background-position-y: center;
+}
+#fast-food{
+  float: left;
+}
+#drinks{
+  float: right;
+}

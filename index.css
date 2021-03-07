@@ -99,9 +99,25 @@ a{
 #lunch{
   background-image: url("./assets/foodtop/lunch.jpg");
   background-size: cover;
+  opacity: 0.5;
 }
 #dinner{
   background-image: url("./assets/foodtop/dinner.jpg");
   background-size: cover;
 
+}
+#breakfast p{
+  margin-top: 25%;
+  color: white;
+  text-align: center;
+}
+#lunch p{
+  margin-top: 25%;
+  color: white;
+  text-align: center;
+}
+#dinner p{
+  margin-top: 25%;
+  color: white;
+  text-align: center;
 }

@@ -32,11 +32,13 @@
 }
 #customer{
   border: 2px solid grey;
+  margin: 20px 20px 20px 20px;
 
 
 }
 #about{
   justify-content:right;
+  margin-left: 80%;
 }
 #fastfoods{
   border: 1px solid white;
@@ -48,6 +50,10 @@
   background-size: cover;
   background-position-y: center;
 }
+#nav{
+  display: inline-block;
+}
+
 .food{
   display: flex;
   height: 400px;

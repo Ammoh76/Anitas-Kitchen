@@ -38,7 +38,7 @@
 #about{
   justify-content:right;
 }
-#Fastfoods{
+#fastfoods{
   border: 1px solid white;
   display: inline-block;
   size: 30px;
@@ -48,8 +48,18 @@
   background-size: cover;
   background-position-y: center;
 }
+.food{
+  display: flex;
+  height: 400px;
+}
+#fast{
+  display: flexbox;
+  margin-top: 0%;
+}
 #fast-food{
   float: left;
+  flex-direction: column;
+  display: flex;
 }
 #drinks{
   float: right;
@@ -58,7 +68,7 @@ a{
   color: #F15A29;
 }
 .foodtops{
-  border: 2px solid red;
+  border: 2px solid white;
   height: 200px;
   width: 100%;
   display: flex;
@@ -66,7 +76,7 @@ a{
 
 }
 .foodtops div{
-  border:2px solid green;
+  border:2px solid white;
   width: 25%;
   height: 100%;
 }
@@ -78,7 +88,7 @@ a{
 }
 #happyhour{
   background-color: lightgrey;
-  height: 50%;
+  height: 45%;
   width: 100%;
 
 }
@@ -120,4 +130,7 @@ a{
   margin-top: 25%;
   color: white;
   text-align: center;
+}
+#happyhour p{
+  color: black;
 }
